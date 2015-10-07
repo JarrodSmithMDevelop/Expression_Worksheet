@@ -9,15 +9,22 @@
 //Variables
 
 
-var wk1 = 237;                                                                //Week 1 total
-var wk2 = 347;                                                                //Week 2 total
-var wk3 = 298;                                                                //Week 3 total
-var wk4 = 175;                                                                //Week 4 total
-var wk5 = 231;                                                                //Week 5 total
+var wk1;                                                                //Week 1 total
+var wk2;                                                                //Week 2 total
+var wk3;                                                                //Week 3 total
+var wk4;                                                                //Week 4 total
+var wk5;                                                                //Week 5 total
 var avgWeeks;
 array = [wk1,wk2,wk3,wk4,wk5];
 var total;
 
+//Inputs
+
+var wk1 = prompt("Enter the amount of your week 1 grocery bill.");
+var wk2 = prompt("Enter the amount of your week 2 grocery bill.");
+var wk3 = prompt("Enter the amount of your week 3 grocery bill.");
+var wk4 = prompt("Enter the amount of your week 4 grocery bill.");
+var wk5 = prompt("Enter the amount of your week 5 grocery bill.");
 
 //Equations
 
